@@ -1,6 +1,11 @@
 [package]
+description = "this is smart-add-one crate"
+documentation = "https://docs.rs/smart-add-one"
 edition = "2021"
+homepage = "https://github.com/username/smart-add-one"
+license = "MIT"
 name = "smart-add-one"
+repository = "https://github.com/username/smart-add-one"
 version = "0.0.1"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
