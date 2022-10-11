@@ -1,6 +1,6 @@
 [workspace]
 
 members = [
-  "smart-adder",
-  "samrt-add-one",
+  "adder",
+  "add_one",
 ]
