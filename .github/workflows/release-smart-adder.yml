@@ -22,9 +22,9 @@ jobs:
         uses: actions-rs/toolchain@v1
         with:
           toolchain: nightly
-          components: rustfmt, clippy, cargo-smart-release
           profile: minimal
           override: true
+          components: rustfmt, clippy, cargo-smart-release
 
       - name: Publish smart-add-one
         env:
