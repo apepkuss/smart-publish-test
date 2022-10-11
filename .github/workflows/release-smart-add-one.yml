@@ -1,0 +1,36 @@
+name: release-smart-add-one
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}
+  cancel-in-progress: true
+
+on: workflow_dispatch
+
+jobs:
+  crate_release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    container:
+      image: wasmedge/wasmedge:ubuntu-build-clang
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Install Rust toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: nightly
+          components: rustfmt, clippy, cargo-smart-release
+          profile: minimal
+          override: true
+
+      - name: Publish smart-add-one
+        env:
+          CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+        shell: bash
+        run: |
+          cd add_one
+          cargo smart-release --no-changelog --update-crates-index --dry-run-cargo-publish smart-add-one
+          cargo smart-release --no-changelog --update-crates-index --execute smart-add-one
