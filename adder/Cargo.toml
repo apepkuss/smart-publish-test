@@ -1,9 +1,9 @@
 [package]
 edition = "2021"
 name = "smart-adder"
-version = "0.0.0"
+version = "0.0.1"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-smart-add-one = {path = "../add_one"}
+smart-add-one = {path = "../add_one", version = "0.0.1"}
