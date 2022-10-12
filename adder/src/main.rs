@@ -6,4 +6,6 @@ fn main() {
         "Hello, world! {num} plus one is {}!",
         smart_add_one_new::add_one(num)
     );
+
+    println!("additional info");
 }
