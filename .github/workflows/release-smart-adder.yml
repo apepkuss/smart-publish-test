@@ -32,12 +32,12 @@ jobs:
           profile: minimal
           override: true
 
-      - name: Publish smart-add-one
+      - name: Publish smart-adder
         env:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
         shell: bash
         run: |
-          cd adder
           cargo install cargo-smart-release
-          cargo smart-release --no-changelog --update-crates-index --dry-run-cargo-publish smart-adder
-          cargo smart-release --no-changelog --update-crates-index --execute smart-adder
+          cd adder
+          cargo smart-release --no-changelog --update-crates-index --no-dependencies --dry-run-cargo-publish smart-adder
+          cargo smart-release --no-changelog --update-crates-index --no-dependencies --execute smart-adder
