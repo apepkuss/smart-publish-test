@@ -22,8 +22,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          apt update
-          apt install -y libssl-dev pkg-config gh
+          apt-get update
+          apt-get install -y libssl-dev pkg-config gh
 
       - name: Install Rust toolchain
         uses: actions-rs/toolchain@v1
