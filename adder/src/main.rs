@@ -7,12 +7,12 @@ fn main() {
 
 fn plus_one(num: i32) {
     let plus_one = smart_add_one_new::add_one(num);
-    println!("Hello, world! {num} plus one is {}!", echo_num(plus_one),);
+    println!("Hello, world! {num} plus one is {}!", echo(plus_one),);
 
     println!("additional info");
     println!("refactor-smart-adder branch");
 }
 
-fn echo_num(num: i32) -> i32 {
+fn echo(num: i32) -> i32 {
     num
 }
