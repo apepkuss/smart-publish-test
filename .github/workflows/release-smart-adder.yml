@@ -31,5 +31,6 @@ jobs:
         shell: bash
         run: |
           cd adder
+          cargo install cargo-smart-release
           cargo smart-release --no-changelog --update-crates-index --dry-run-cargo-publish smart-adder
           cargo smart-release --no-changelog --update-crates-index --execute smart-adder
