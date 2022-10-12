@@ -7,12 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### New Features (BREAKING)
+
+ - <csr-id-459df2715e0f3477a23167946dfd6690efbeb8ab/> Defined echo function
+
+
 ### Commit Statistics
 
 <csr-read-only-do-not-edit/>
 
- - 2 commits contributed to the release.
- - 0 commits were understood as [conventional](https://www.conventionalcommits.org).
+ - 4 commits contributed to the release.
+ - 1 commit was understood as [conventional](https://www.conventionalcommits.org).
  - 0 issues like '(#ID)' where seen in commit messages
 
 ### Commit Details
@@ -22,6 +27,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <details><summary>view details</summary>
 
  * **Uncategorized**
+    - Defined echo function ([`459df27`](https://github.com/apepkuss/smart-publish-test/commit/459df2715e0f3477a23167946dfd6690efbeb8ab))
+    - update changelog ([`b8e4f1d`](https://github.com/apepkuss/smart-publish-test/commit/b8e4f1d797277980ee1346048c7f4d453b0d009a))
     - [feat!] add print func ([`4f7ad8e`](https://github.com/apepkuss/smart-publish-test/commit/4f7ad8e6f55e48375df38e185a1c44bcd52cc054))
     - update adder ([`27f1a52`](https://github.com/apepkuss/smart-publish-test/commit/27f1a5248b7170dd18eccf5faf89d195ab65defd))
 </details>
