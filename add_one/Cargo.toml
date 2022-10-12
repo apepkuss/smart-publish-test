@@ -6,7 +6,7 @@ homepage = "https://github.com/username/smart-add-one"
 license = "MIT"
 name = "smart-add-one"
 repository = "https://github.com/username/smart-add-one"
-version = "0.0.1"
+version = "0.1.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

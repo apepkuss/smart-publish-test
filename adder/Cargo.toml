@@ -6,9 +6,9 @@ homepage = "https://github.com/username/smart-adder"
 license = "MIT"
 name = "smart-adder"
 repository = "https://github.com/username/smart-adder"
-version = "0.0.1"
+version = "0.1.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-smart-add-one = {path = "../add_one", version = "0.0.1"}
+smart-add-one = {path = "../add_one", version = "0.1"}
