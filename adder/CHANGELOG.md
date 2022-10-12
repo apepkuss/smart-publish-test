@@ -5,11 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## 0.4.0 (2022-10-12)
+
+<csr-id-7b25e7f8e73356837a68020a9f3af52bca201b40/>
+<csr-id-f86ce7a94c15915e7550e3e3bd58e1d175051de3/>
 
 ### Other
 
  - <csr-id-7b25e7f8e73356837a68020a9f3af52bca201b40/> Removed CHANGELOG
+
+
+### Other
+
+ - <csr-id-1a0592d237ce01f87c244ba8e7f031845d89ccf6/> Added CHANGELOG
 
 
 ### Refactor (BREAKING)
@@ -21,8 +29,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <csr-read-only-do-not-edit/>
 
- - 2 commits contributed to the release.
- - 2 commits were understood as [conventional](https://www.conventionalcommits.org).
+ - 3 commits contributed to the release.
+ - 3 commits were understood as [conventional](https://www.conventionalcommits.org).
  - 0 issues like '(#ID)' where seen in commit messages
 
 ### Commit Details
@@ -32,11 +40,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <details><summary>view details</summary>
 
  * **Uncategorized**
+    - Added CHANGELOG ([`1a0592d`](https://github.com/apepkuss/smart-publish-test/commit/1a0592d237ce01f87c244ba8e7f031845d89ccf6))
     - Renamed echo_num to echo ([`f86ce7a`](https://github.com/apepkuss/smart-publish-test/commit/f86ce7a94c15915e7550e3e3bd58e1d175051de3))
     - Removed CHANGELOG ([`7b25e7f`](https://github.com/apepkuss/smart-publish-test/commit/7b25e7f8e73356837a68020a9f3af52bca201b40))
 </details>
 
 ## v0.3.0 (2022-10-12)
+
+<csr-id-7e0fa930bebb955de51fbeda406597c5a681b0f4/>
 
 ### Refactor (BREAKING)
 
@@ -64,6 +75,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## v0.2.0 (2022-10-12)
 
+<csr-id-04ca02437b0342a5353150166b0b288a7a2ba301/>
+<csr-id-b2dce67a9a30660f76b9b96fda4069522fcaf7ba/>
+
 ### Chore
 
  - <csr-id-04ca02437b0342a5353150166b0b288a7a2ba301/> Updated CHANGELOG
@@ -72,7 +86,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### New Features (BREAKING)
 
  - <csr-id-459df2715e0f3477a23167946dfd6690efbeb8ab/> Defined echo function
-
 
 ### Refactor (BREAKING)
 
