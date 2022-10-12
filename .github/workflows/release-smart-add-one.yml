@@ -38,6 +38,5 @@ jobs:
         shell: bash
         run: |
           cargo install cargo-smart-release
-          cd add_one
           cargo smart-release --no-changelog --update-crates-index --dry-run-cargo-publish smart-add-one
           cargo smart-release --no-changelog --update-crates-index --execute smart-add-one
