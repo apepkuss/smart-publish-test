@@ -36,5 +36,7 @@ jobs:
         shell: bash
         run: |
           cargo install cargo-smart-release
+          git config --global user.email "runner@gha.local"
+          git config --global user.name "Github Action"
           cargo smart-release --no-changelog --update-crates-index --dry-run-cargo-publish smart-add-one
           cargo smart-release --no-changelog --update-crates-index --execute smart-add-one
