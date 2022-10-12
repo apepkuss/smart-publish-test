@@ -45,8 +45,6 @@ jobs:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CRATE_SMART_ADDER }}
         shell: bash
         run: |
-          # cargo install cargo-smart-release
-          # cargo login "$CARGO_REGISTRY_TOKEN"
           cargo smart-release --no-changelog --update-crates-index --dry-run-cargo-publish smart-adder
 
       - name: Publish
@@ -55,6 +53,4 @@ jobs:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CRATE_SMART_ADDER }}
         shell: bash
         run: |
-          # cargo install cargo-smart-release
-          # cargo login "$CARGO_REGISTRY_TOKEN"
           cargo smart-release --no-changelog --update-crates-index --execute smart-adder
