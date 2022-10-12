@@ -1,4 +1,4 @@
-name: Release crate
+name: Release smart-add-one-new crate
 
 on:
   workflow_dispatch:
@@ -23,7 +23,7 @@ jobs:
         id: release
         with:
           version: ${{ github.event.inputs.version }}
-          crates-token: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+          crates-token: ${{ secrets.CARGO_REGISTRY_TOKEN_SMART_ADD_ONE_NEW }}
           working-directory: add_one
 
       - name: Push updated Cargo.toml
