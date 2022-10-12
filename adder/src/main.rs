@@ -8,4 +8,5 @@ fn main() {
     );
 
     println!("additional info");
+    println!("refactor-smart-adder branch");
 }
