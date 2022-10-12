@@ -5,19 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## 0.2.0 (2022-10-12)
+
+### Refactor (BREAKING)
+
+ - <csr-id-b2dce67a9a30660f76b9b96fda4069522fcaf7ba/> Renamed print func to plus_one
+
+
+### Chore
+
+ - <csr-id-04ca02437b0342a5353150166b0b288a7a2ba301/> Updated CHANGELOG
+
 
 ### New Features (BREAKING)
 
  - <csr-id-459df2715e0f3477a23167946dfd6690efbeb8ab/> Defined echo function
 
-
 ### Commit Statistics
 
 <csr-read-only-do-not-edit/>
 
- - 4 commits contributed to the release.
- - 1 commit was understood as [conventional](https://www.conventionalcommits.org).
+ - 6 commits contributed to the release.
+ - 3 commits were understood as [conventional](https://www.conventionalcommits.org).
  - 0 issues like '(#ID)' where seen in commit messages
 
 ### Commit Details
@@ -27,6 +36,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <details><summary>view details</summary>
 
  * **Uncategorized**
+    - Renamed print func to plus_one ([`b2dce67`](https://github.com/apepkuss/smart-publish-test/commit/b2dce67a9a30660f76b9b96fda4069522fcaf7ba))
+    - Updated CHANGELOG ([`04ca024`](https://github.com/apepkuss/smart-publish-test/commit/04ca02437b0342a5353150166b0b288a7a2ba301))
     - Defined echo function ([`459df27`](https://github.com/apepkuss/smart-publish-test/commit/459df2715e0f3477a23167946dfd6690efbeb8ab))
     - update changelog ([`b8e4f1d`](https://github.com/apepkuss/smart-publish-test/commit/b8e4f1d797277980ee1346048c7f4d453b0d009a))
     - [feat!] add print func ([`4f7ad8e`](https://github.com/apepkuss/smart-publish-test/commit/4f7ad8e6f55e48375df38e185a1c44bcd52cc054))
