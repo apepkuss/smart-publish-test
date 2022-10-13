@@ -5,17 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## 0.5.0 (2022-10-13)
 
 <csr-id-b2c82e39f5d3d166318d96facc0f18926a17195e/>
 <csr-id-81e59ca5f49b6858761acf452386c52c094848ce/>
 <csr-id-e8c46eb75d2a69c6fdf01612f1076be7f7b97557/>
 <csr-id-f0b5ed625ce0e2989471bef4457991bc34643d4c/>
 <csr-id-b6734c3cb6e88fcb7508e99bb9d3856050b48bdd/>
+<csr-id-b19f24c6776be2db50577231480d92c811e683c3/>
 
 ### Refactor (BREAKING)
 
  - <csr-id-b2c82e39f5d3d166318d96facc0f18926a17195e/> Renamed plus_one to plus
+
+
+### Other
+
+ - <csr-id-32d0a7b58d17ab6382c9ee2121d36af58de4148d/> changelog
 
 
 ### Other
@@ -47,8 +53,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <csr-read-only-do-not-edit/>
 
- - 7 commits contributed to the release.
- - 6 commits were understood as [conventional](https://www.conventionalcommits.org).
+ - 8 commits contributed to the release.
+ - 7 commits were understood as [conventional](https://www.conventionalcommits.org).
  - 0 issues like '(#ID)' where seen in commit messages
 
 ### Commit Details
@@ -58,6 +64,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <details><summary>view details</summary>
 
  * **Uncategorized**
+    - changelog ([`32d0a7b`](https://github.com/apepkuss/smart-publish-test/commit/32d0a7b58d17ab6382c9ee2121d36af58de4148d))
     - updated changelog ([`b19f24c`](https://github.com/apepkuss/smart-publish-test/commit/b19f24c6776be2db50577231480d92c811e683c3))
     - changelog ([`b6734c3`](https://github.com/apepkuss/smart-publish-test/commit/b6734c3cb6e88fcb7508e99bb9d3856050b48bdd))
     - Release smart-add-one-new v0.2.0, safety bump smart-adder v0.5.0 ([`464f525`](https://github.com/apepkuss/smart-publish-test/commit/464f525e880253163847a39774be289847a0cb17))
