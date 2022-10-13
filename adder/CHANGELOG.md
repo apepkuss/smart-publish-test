@@ -10,10 +10,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <csr-id-b2c82e39f5d3d166318d96facc0f18926a17195e/>
 <csr-id-81e59ca5f49b6858761acf452386c52c094848ce/>
 <csr-id-e8c46eb75d2a69c6fdf01612f1076be7f7b97557/>
+<csr-id-f0b5ed625ce0e2989471bef4457991bc34643d4c/>
 
 ### Refactor (BREAKING)
 
  - <csr-id-b2c82e39f5d3d166318d96facc0f18926a17195e/> Renamed plus_one to plus
+
+
+### Other
+
+ - <csr-id-b6734c3cb6e88fcb7508e99bb9d3856050b48bdd/> changelog
 
 
 ### Other
@@ -35,8 +41,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <csr-read-only-do-not-edit/>
 
- - 5 commits contributed to the release.
- - 4 commits were understood as [conventional](https://www.conventionalcommits.org).
+ - 6 commits contributed to the release.
+ - 5 commits were understood as [conventional](https://www.conventionalcommits.org).
  - 0 issues like '(#ID)' where seen in commit messages
 
 ### Commit Details
@@ -46,6 +52,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <details><summary>view details</summary>
 
  * **Uncategorized**
+    - changelog ([`b6734c3`](https://github.com/apepkuss/smart-publish-test/commit/b6734c3cb6e88fcb7508e99bb9d3856050b48bdd))
     - Release smart-add-one-new v0.2.0, safety bump smart-adder v0.5.0 ([`464f525`](https://github.com/apepkuss/smart-publish-test/commit/464f525e880253163847a39774be289847a0cb17))
     - updated changelog ([`f0b5ed6`](https://github.com/apepkuss/smart-publish-test/commit/f0b5ed625ce0e2989471bef4457991bc34643d4c))
     - renamed echo to echo_num ([`81e59ca`](https://github.com/apepkuss/smart-publish-test/commit/81e59ca5f49b6858761acf452386c52c094848ce))
