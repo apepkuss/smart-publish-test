@@ -7,17 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Other
+
+ - <csr-id-70eb91e2a0bbfec3d8d8985f3daac82a22146010/> Updated changelog
+
+
 ### New Features (BREAKING)
 
  - <csr-id-2c6dc6281250c1be4601183d3beaf263a398d49a/> Used plus_one
-
 
 ### Commit Statistics
 
 <csr-read-only-do-not-edit/>
 
- - 1 commit contributed to the release.
- - 1 commit was understood as [conventional](https://www.conventionalcommits.org).
+ - 2 commits contributed to the release.
+ - 2 commits were understood as [conventional](https://www.conventionalcommits.org).
  - 0 issues like '(#ID)' where seen in commit messages
 
 ### Commit Details
@@ -27,6 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <details><summary>view details</summary>
 
  * **Uncategorized**
+    - Updated changelog ([`70eb91e`](https://github.com/apepkuss/smart-publish-test/commit/70eb91e2a0bbfec3d8d8985f3daac82a22146010))
     - Used plus_one ([`2c6dc62`](https://github.com/apepkuss/smart-publish-test/commit/2c6dc6281250c1be4601183d3beaf263a398d49a))
 </details>
 
