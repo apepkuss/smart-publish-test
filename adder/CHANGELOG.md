@@ -7,17 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+<csr-id-b2c82e39f5d3d166318d96facc0f18926a17195e/>
+
 ### Refactor (BREAKING)
 
  - <csr-id-b2c82e39f5d3d166318d96facc0f18926a17195e/> Renamed plus_one to plus
+
+
+### Refactor (BREAKING)
+
+ - <csr-id-81e59ca5f49b6858761acf452386c52c094848ce/> renamed echo to echo_num
+
+
+### Other
+
+ - <csr-id-e8c46eb75d2a69c6fdf01612f1076be7f7b97557/> changelog
 
 
 ### Commit Statistics
 
 <csr-read-only-do-not-edit/>
 
- - 1 commit contributed to the release.
- - 1 commit was understood as [conventional](https://www.conventionalcommits.org).
+ - 3 commits contributed to the release.
+ - 3 commits were understood as [conventional](https://www.conventionalcommits.org).
  - 0 issues like '(#ID)' where seen in commit messages
 
 ### Commit Details
@@ -27,6 +39,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <details><summary>view details</summary>
 
  * **Uncategorized**
+    - renamed echo to echo_num ([`81e59ca`](https://github.com/apepkuss/smart-publish-test/commit/81e59ca5f49b6858761acf452386c52c094848ce))
+    - changelog ([`e8c46eb`](https://github.com/apepkuss/smart-publish-test/commit/e8c46eb75d2a69c6fdf01612f1076be7f7b97557))
     - Renamed plus_one to plus ([`b2c82e3`](https://github.com/apepkuss/smart-publish-test/commit/b2c82e39f5d3d166318d96facc0f18926a17195e))
 </details>
 
