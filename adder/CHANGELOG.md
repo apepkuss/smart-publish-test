@@ -5,7 +5,50 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## 0.7.0 (2022-10-13)
+
+<csr-id-d73c7d25c1c3e80e19b0abbe89b4e3673e2a98ba/>
+
+### Refactor (BREAKING)
+
+ - <csr-id-d73c7d25c1c3e80e19b0abbe89b4e3673e2a98ba/> renamed plus to plus_num
+
+
+### Refactor (BREAKING)
+
+ - <csr-id-cffbc8546b2c7db10a075885a740cc778d91e300/> rename echo_num to echo
+
+ - <csr-id-fe9dbb80b35d8bfa7128926d08101728b53baf9d/> rename echo to echo_num
+
+ - <csr-id-91bc30ff070445cdb19aae8fbed9b7c46cc3db67/> rename echo_num to echo
+
+
+### Commit Statistics
+
+<csr-read-only-do-not-edit/>
+
+ - 3 commits contributed to the release.
+ - 3 commits were understood as [conventional](https://www.conventionalcommits.org).
+ - 0 issues like '(#ID)' where seen in commit messages
+
+### Commit Details
+
+<csr-read-only-do-not-edit/>
+
+<details><summary>view details</summary>
+
+ * **Uncategorized**
+    - rename echo_num to echo ([`cffbc85`](https://github.com/apepkuss/smart-publish-test/commit/cffbc8546b2c7db10a075885a740cc778d91e300))
+    - rename echo to echo_num ([`fe9dbb8`](https://github.com/apepkuss/smart-publish-test/commit/fe9dbb80b35d8bfa7128926d08101728b53baf9d))
+    - rename echo_num to echo ([`91bc30f`](https://github.com/apepkuss/smart-publish-test/commit/91bc30ff070445cdb19aae8fbed9b7c46cc3db67))
+</details>
+
+## 0.6.0 (2022-10-13)
+
+### Other
+
+ - <csr-id-87c5a94792b17aa0829ceb3f7d0b4b98f632b20e/> updated changelog
+
 
 ### Refactor (BREAKING)
 
@@ -16,8 +59,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <csr-read-only-do-not-edit/>
 
- - 1 commit contributed to the release.
- - 1 commit was understood as [conventional](https://www.conventionalcommits.org).
+ - 3 commits contributed to the release.
+ - 2 commits were understood as [conventional](https://www.conventionalcommits.org).
  - 0 issues like '(#ID)' where seen in commit messages
 
 ### Commit Details
@@ -27,6 +70,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <details><summary>view details</summary>
 
  * **Uncategorized**
+    - Release smart-adder v0.6.0 ([`a6f01ea`](https://github.com/apepkuss/smart-publish-test/commit/a6f01ea4f02db93ee888bb54b640dc6b3d0a6d87))
+    - updated changelog ([`87c5a94`](https://github.com/apepkuss/smart-publish-test/commit/87c5a94792b17aa0829ceb3f7d0b4b98f632b20e))
     - renamed plus to plus_num ([`d73c7d2`](https://github.com/apepkuss/smart-publish-test/commit/d73c7d25c1c3e80e19b0abbe89b4e3673e2a98ba))
 </details>
 
