@@ -2,10 +2,10 @@ use smart_add_one_new;
 
 fn main() {
     let num = 10;
-    plus_one(num);
+    plus(num);
 }
 
-fn plus_one(num: i32) {
+fn plus(num: i32) {
     let plus_one = smart_add_one_new::add_one(num);
     println!("Hello, world! {num} plus one is {}!", echo(plus_one),);
 
