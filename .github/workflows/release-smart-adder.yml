@@ -51,7 +51,7 @@ jobs:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CRATE_SMART_ADDER }}
         shell: bash
         run: |
-          cargo smart-release --update-crates-index --dry-run-cargo-publish --no-dependencies smart-adder
+          cargo smart-release --update-crates-index --dry-run-cargo-publish --no-changelog --no-dependencies smart-adder
 
       - name: Publish
         env:
@@ -59,4 +59,4 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
         run: |
-          cargo smart-release --update-crates-index --execute --no-dependencies smart-adder
+          cargo smart-release --update-crates-index --execute --no-dependencies --no-changelog smart-adder
