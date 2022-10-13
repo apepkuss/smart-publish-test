@@ -3,6 +3,8 @@ use smart_add_one_new;
 fn main() {
     let num = 10;
     plus_one(num);
+
+    smart_add_one_new::plus_one(num);
 }
 
 fn plus_one(num: i32) {
