@@ -5,6 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+### Refactor (BREAKING)
+
+ - <csr-id-d73c7d25c1c3e80e19b0abbe89b4e3673e2a98ba/> renamed plus to plus_num
+
+
+### Commit Statistics
+
+<csr-read-only-do-not-edit/>
+
+ - 1 commit contributed to the release.
+ - 1 commit was understood as [conventional](https://www.conventionalcommits.org).
+ - 0 issues like '(#ID)' where seen in commit messages
+
+### Commit Details
+
+<csr-read-only-do-not-edit/>
+
+<details><summary>view details</summary>
+
+ * **Uncategorized**
+    - renamed plus to plus_num ([`d73c7d2`](https://github.com/apepkuss/smart-publish-test/commit/d73c7d25c1c3e80e19b0abbe89b4e3673e2a98ba))
+</details>
+
 ## 0.5.0 (2022-10-13)
 
 <csr-id-b2c82e39f5d3d166318d96facc0f18926a17195e/>
@@ -13,6 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <csr-id-f0b5ed625ce0e2989471bef4457991bc34643d4c/>
 <csr-id-b6734c3cb6e88fcb7508e99bb9d3856050b48bdd/>
 <csr-id-b19f24c6776be2db50577231480d92c811e683c3/>
+<csr-id-32d0a7b58d17ab6382c9ee2121d36af58de4148d/>
 
 ### Refactor (BREAKING)
 
@@ -53,7 +79,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <csr-read-only-do-not-edit/>
 
- - 8 commits contributed to the release.
+ - 9 commits contributed to the release.
  - 7 commits were understood as [conventional](https://www.conventionalcommits.org).
  - 0 issues like '(#ID)' where seen in commit messages
 
@@ -64,6 +90,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <details><summary>view details</summary>
 
  * **Uncategorized**
+    - Release smart-adder v0.5.0 ([`32dc27f`](https://github.com/apepkuss/smart-publish-test/commit/32dc27f0e44273e6b571113afea2ea114acc410e))
     - changelog ([`32d0a7b`](https://github.com/apepkuss/smart-publish-test/commit/32d0a7b58d17ab6382c9ee2121d36af58de4148d))
     - updated changelog ([`b19f24c`](https://github.com/apepkuss/smart-publish-test/commit/b19f24c6776be2db50577231480d92c811e683c3))
     - changelog ([`b6734c3`](https://github.com/apepkuss/smart-publish-test/commit/b6734c3cb6e88fcb7508e99bb9d3856050b48bdd))
