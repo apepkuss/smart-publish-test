@@ -5,10 +5,36 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+### New Features (BREAKING)
+
+ - <csr-id-2c6dc6281250c1be4601183d3beaf263a398d49a/> Used plus_one
+
+
+### Commit Statistics
+
+<csr-read-only-do-not-edit/>
+
+ - 1 commit contributed to the release.
+ - 1 commit was understood as [conventional](https://www.conventionalcommits.org).
+ - 0 issues like '(#ID)' where seen in commit messages
+
+### Commit Details
+
+<csr-read-only-do-not-edit/>
+
+<details><summary>view details</summary>
+
+ * **Uncategorized**
+    - Used plus_one ([`2c6dc62`](https://github.com/apepkuss/smart-publish-test/commit/2c6dc6281250c1be4601183d3beaf263a398d49a))
+</details>
+
 ## 0.4.0 (2022-10-12)
 
 <csr-id-7b25e7f8e73356837a68020a9f3af52bca201b40/>
 <csr-id-f86ce7a94c15915e7550e3e3bd58e1d175051de3/>
+<csr-id-1a0592d237ce01f87c244ba8e7f031845d89ccf6/>
 
 ### Other
 
@@ -29,7 +55,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <csr-read-only-do-not-edit/>
 
- - 3 commits contributed to the release.
+ - 4 commits contributed to the release.
  - 3 commits were understood as [conventional](https://www.conventionalcommits.org).
  - 0 issues like '(#ID)' where seen in commit messages
 
@@ -40,6 +66,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <details><summary>view details</summary>
 
  * **Uncategorized**
+    - Release smart-adder v0.4.0 ([`52b9039`](https://github.com/apepkuss/smart-publish-test/commit/52b9039a008e6d02cfc43f18e31aaafde4b69ffe))
     - Added CHANGELOG ([`1a0592d`](https://github.com/apepkuss/smart-publish-test/commit/1a0592d237ce01f87c244ba8e7f031845d89ccf6))
     - Renamed echo_num to echo ([`f86ce7a`](https://github.com/apepkuss/smart-publish-test/commit/f86ce7a94c15915e7550e3e3bd58e1d175051de3))
     - Removed CHANGELOG ([`7b25e7f`](https://github.com/apepkuss/smart-publish-test/commit/7b25e7f8e73356837a68020a9f3af52bca201b40))
