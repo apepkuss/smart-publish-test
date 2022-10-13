@@ -5,8 +5,14 @@ concurrency:
   cancel-in-progress: true
 
 on:
-  workflow_dispatch:
-    branches: master
+  # workflow_dispatch:
+  #   branches: master
+  push:
+    branches:
+      - "master"
+      - "**"
+    paths:
+      - "add_one/CHANGELOG.md"
 
 jobs:
   crate_release:
