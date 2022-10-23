@@ -79,7 +79,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
         run: |
-          cargo release -p smart-adder --execute --no-confirm
+          cargo release -p smart-adder --execute
 
       - name: Tag the released commit
         run: |
