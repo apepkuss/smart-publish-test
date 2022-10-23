@@ -80,7 +80,7 @@ jobs:
         uses: actions-rs/cargo@v1
         with:
           command: release
-          args: --execute --no-confirm --config adder/release.toml
+          args: --execute --no-confirm --config adder/release.toml -p smart-adder
 
       # - name: Prepare release
       #   run: |
