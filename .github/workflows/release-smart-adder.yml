@@ -79,7 +79,7 @@ jobs:
         uses: actions-rs/cargo@v1
         with:
           command: release
-          args: --unpublished
+          args: --execute --no-confirm
 
       # - name: Prepare release
       #   run: |
