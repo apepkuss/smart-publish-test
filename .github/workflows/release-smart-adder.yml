@@ -5,14 +5,14 @@ concurrency:
   cancel-in-progress: true
 
 on:
-  # workflow_dispatch:
-  #   branches: master
-  push:
-    branches:
-      - "master"
-      - "**"
-    paths:
-      - "adder/**.rs"
+  workflow_dispatch:
+    branches: master
+  # push:
+  #   branches:
+  #     - "master"
+  #     - "**"
+  #   paths:
+  #     - "adder/**.rs"
 
 jobs:
   crate_release:
@@ -71,7 +71,7 @@ jobs:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CRATE_SMART_ADDER }}
         shell: bash
         run: |
-          cargo release --dry-run
+          cargo release -p smart-adder
 
       - name: Publish
         env:
@@ -79,4 +79,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
         run: |
-          cargo release -p smart-adder --tag-name "adder/v0.7.0"
+          cargo release -p smart-adder
+
+      - name: Tag the released commit
+        run: |
+          cargo release tag
