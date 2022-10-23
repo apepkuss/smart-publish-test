@@ -69,6 +69,7 @@ jobs:
           args: cargo-release
 
       - name: Dry run cargo publish
+        uses: actions-rs/cargo@v1
         env:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CRATE_SMART_ADDER }}
         with:
