@@ -92,12 +92,12 @@ jobs:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CRATE_SMART_ADDER }}
         shell: bash
         run: |
-          cargo release publish -p smart-adder
+          cargo release publish -p smart-adder --no-verify
 
-      - name: Tag the released commit
-        run: |
-          cargo release tag --tag-name "adder/0.8.0"
-          # cargo release push
+      # - name: Tag the released commit
+      #   run: |
+      #     cargo release tag --tag-name "adder/0.8.0"
+      #     # cargo release push
 
       - name: Publish
         env:
@@ -105,5 +105,5 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
         run: |
-          # cargo release -p smart-adder --execute --no-confirm
-          cargo release --unpublished
+          cargo release tag --tag-name "adder/0.8.0"
+          cargo release -p smart-adder --execute --no-confirm
