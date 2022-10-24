@@ -61,48 +61,49 @@ jobs:
       #   run: |
       #     cargo smart-release --update-crates-index --execute --no-dependencies smart-adder
 
-      - name: install cargo-release
-        uses: actions-rs/cargo@v1
-        if: steps.cache-release.outputs.cache-hit != 'true'
-        with:
-          command: install
-          args: cargo-release
-
-      - name: Dry run cargo publish
-        uses: actions-rs/cargo@v1
-        env:
-          CARGO_REGISTRY_TOKEN: ${{ secrets.CRATE_SMART_ADDER }}
-        with:
-          command: release
-          args: publish -p smart-adder
-
-      - name: cargo release
-        uses: actions-rs/cargo@v1
-        with:
-          command: release
-          args: --package smart-adder --execute --no-confirm --config adder/release.toml
-
-      # - name: Prepare release
-      #   run: |
-      #     cargo install cargo-release
-      #     # cargo login "$CARGO_REGISTRY_TOKEN"
+      # - name: install cargo-release
+      #   uses: actions-rs/cargo@v1
+      #   if: steps.cache-release.outputs.cache-hit != 'true'
+      #   with:
+      #     command: install
+      #     args: cargo-release
 
       # - name: Dry run cargo publish
+      #   uses: actions-rs/cargo@v1
       #   env:
       #     CARGO_REGISTRY_TOKEN: ${{ secrets.CRATE_SMART_ADDER }}
-      #   shell: bash
-      #   run: |
-      #     cargo release publish -p smart-adder
+      #   with:
+      #     command: release
+      #     args: publish -p smart-adder
 
-      # - name: Publish
-      #   env:
-      #     CARGO_REGISTRY_TOKEN: ${{ secrets.CRATE_SMART_ADDER }}
-      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   shell: bash
-      #   run: |
-      #     cargo release -p smart-adder --execute --no-confirm
+      # - name: cargo release
+      #   uses: actions-rs/cargo@v1
+      #   with:
+      #     command: release
+      #     args: --package smart-adder --execute --no-confirm --config adder/release.toml
 
-      # - name: Tag the released commit
-      #   run: |
-      #     cargo release tag -p smart-adder
-      #     cargo release push
+      - name: Prepare release
+        run: |
+          cargo install cargo-release
+          # cargo login "$CARGO_REGISTRY_TOKEN"
+
+      - name: Dry run cargo publish
+        env:
+          CARGO_REGISTRY_TOKEN: ${{ secrets.CRATE_SMART_ADDER }}
+        shell: bash
+        run: |
+          cargo release publish -p smart-adder
+
+      - name: Tag the released commit
+        run: |
+          cargo release tag --tag-name "adder/0.8.0"
+          # cargo release push
+
+      - name: Publish
+        env:
+          CARGO_REGISTRY_TOKEN: ${{ secrets.CRATE_SMART_ADDER }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          # cargo release -p smart-adder --execute --no-confirm
+          cargo release --unpublished
