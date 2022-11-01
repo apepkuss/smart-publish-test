@@ -11,4 +11,4 @@ version = "0.8.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-smart-add-one-new = {path = "../add_one", version = "^0.3.0"}
+smart-add-one-new = {path = "../add_one", version = "^0.3.0" }
